@@ -1,0 +1,25 @@
+<script>
+
+    for (let i = 1; i <= 5; i++) {
+        for (let s = 6; s > i; s--) {
+            document.write("&nbsp ");
+        }
+        for (let j = 1; j <= i; j++) {
+            document.write(j);
+            document.write("&nbsp ");
+        }
+        document.write(`<br>`);
+    }
+
+    for (let i = 6; i >= 1; i--) {
+        for (let s = i; s < 6; s++) {
+            document.write("&nbsp ");
+        }
+        for (let j = 1; j <= i; j++) {
+            document.write(j);
+            document.write("&nbsp ");
+        }
+        document.write(`<br>`);
+    }
+
+</script>
